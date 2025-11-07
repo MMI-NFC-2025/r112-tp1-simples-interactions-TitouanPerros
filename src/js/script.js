@@ -4,7 +4,7 @@ const elm = document.querySelector("#a-mettre-en-rouge");
 elm.style.color="red";
 //exo2
 const button = document.querySelector("#en-rouge-suite-a-click");
-button.addEventListener("click",function(){elm.style.color ="red"});
+button.addEventListener("click",function(){button.style.color ="red"});
 //exo3
 const coll = document.querySelectorAll("h2");
 
